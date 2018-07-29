@@ -63,9 +63,6 @@ class Fortune extends Component {
         }
       })
       .then(response => response.json())
-      // .then(json => {
-      //   debugger;
-      // })
       .then(body => {
         this.setState({ fortune: body.fortune.text,
         newFortune: '' });
