@@ -5,7 +5,7 @@ class Fortune extends Component {
     super(props);
     this.state = {
       fortune: '',
-      newFortune: ''
+      newFortune: '',
     };
     this.handleClick = this.handleClick.bind(this);
     this.handleChange = this.handleChange.bind(this);
